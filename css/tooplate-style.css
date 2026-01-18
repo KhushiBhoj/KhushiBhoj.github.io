@@ -1916,3 +1916,27 @@ body.dark-mode .find-me .col i:hover {
     text-align: center;
   }
 }
+
+/* UI Fixes */
+/* Make the first item visible by default (fix for mobile & initial flash) */
+.animated-item:first-child {
+  opacity: 1;
+  position: relative;
+}
+
+/* Mobile-specific fixes */
+@media (max-width: 768px) {
+  .animated-info {
+    min-width: auto;
+    margin-top: 0;
+  }
+
+  .animated-item {
+    position: relative;
+    display: block;
+    opacity: 1 !important;
+    animation: none !important;
+    font-size: 28px;
+    /* optional: smaller font on mobile */
+  }
+}
