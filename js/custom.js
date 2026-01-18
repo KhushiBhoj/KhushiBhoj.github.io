@@ -33,7 +33,7 @@
           {
             scrollTop: $($anchor.attr("href")).offset().top - 49,
           },
-          1000
+          1000,
         );
       event.preventDefault();
     });
@@ -62,7 +62,7 @@
       },
       {
         threshold: 0.6, // 60% of the item is visible to trigger
-      }
+      },
     );
 
     eduItems.forEach((item) => eduObserver.observe(item));
@@ -82,7 +82,7 @@
       },
       {
         threshold: 0.65,
-      }
+      },
     );
 
     expItems.forEach((item) => expObserver.observe(item));
@@ -115,7 +115,7 @@
       },
       {
         threshold: 0.6,
-      }
+      },
     );
 
     pubCards.forEach((card) => pubObserver.observe(card));
@@ -133,7 +133,7 @@
           }
         });
       },
-      { threshold: 0.6 }
+      { threshold: 0.6 },
     );
 
     achievementCards.forEach((card) => achObserver.observe(card));

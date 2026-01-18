@@ -540,6 +540,7 @@ strong {
   .full-screen {
     padding: 0%;
   }
+
   .bgTitle {
     height: 100%;
     width: 50%;
@@ -667,8 +668,14 @@ p {
 /* =========================
    HEADINGS
 ========================= */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--text-dark) !important; /* Royal Green */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-dark) !important;
+  /* Royal Green */
 }
 
 .dark-mode {
@@ -683,7 +690,8 @@ h1, h2, h3, h4, h5, h6 {
 .dark-mode h5,
 .dark-mode h6,
 .dark-mode p {
-  color: var(--text-light) !important; /* Beige */
+  color: var(--text-light) !important;
+  /* Beige */
 }
 
 /* =========================
@@ -703,7 +711,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Navbar links (tabs) */
 .navbar-light .navbar-nav .nav-link {
-  color: var(--text-dark); /* Royal Green */
+  color: var(--text-dark);
+  /* Royal Green */
   position: relative;
   transition: color 0.3s ease;
 }
@@ -720,7 +729,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--accent-gold); /* Gold on hover */
+  color: var(--accent-gold);
+  /* Gold on hover */
 }
 
 .navbar-light .navbar-nav .nav-link:hover::after {
@@ -729,11 +739,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Dark mode navbar links */
 .dark-mode .navbar-light .navbar-nav .nav-link {
-  color: var(--text-light); /* Beige */
+  color: var(--text-light);
+  /* Beige */
 }
 
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--accent-gold); /* Gold on hover */
+  color: var(--accent-gold);
+  /* Gold on hover */
 }
 
 .dark-mode .navbar-light .navbar-nav .nav-link::after {
@@ -748,7 +760,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1px;
-  color: var(--text-dark) !important; /* Royal Green */
+  color: var(--text-dark) !important;
+  /* Royal Green */
   transition: color 0.3s ease;
 }
 
@@ -758,11 +771,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo:hover,
 .navbar-brand:hover {
-  color: var(--accent-gold) !important; /* Gold */
+  color: var(--accent-gold) !important;
+  /* Gold */
 }
 
 .dark-mode .logo {
-  color: var(--text-light) !important; /* Beige */
+  color: var(--text-light) !important;
+  /* Beige */
 }
 
 /* =========================
@@ -784,42 +799,54 @@ h1, h2, h3, h4, h5, h6 {
    LIGHT/DARK MODE ICONS (FIXED HOVER)
 ========================= */
 .color-mode {
-  color: var(--text-dark) !important; /* Royal Green in light mode */
+  color: var(--text-dark) !important;
+  /* Royal Green in light mode */
   transition: color 0.3s ease !important;
 }
 
 .dark-mode .color-mode {
-  color: var(--text-light) !important; /* Beige in dark mode */
+  color: var(--text-light) !important;
+  /* Beige in dark mode */
 }
 
 .color-mode:hover {
-  color: var(--accent-gold) !important; /* Gold on hover - override any previous rule */
+  color: var(--accent-gold) !important;
+  /* Gold on hover - override any previous rule */
 }
 
 /* =========================
    NAVBAR TABS (FIXED HOVER)
 ========================= */
 .navbar-light .navbar-nav .nav-link {
-  color: var(--text-dark) !important; /* Royal Green light mode */
+  color: var(--text-dark) !important;
+  /* Royal Green light mode */
   transition: color 0.3s ease !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--accent-gold) !important; /* Gold hover */
+  color: var(--accent-gold) !important;
+  /* Gold hover */
 }
 
 .dark-mode .navbar-light .navbar-nav .nav-link {
-  color: var(--text-light) !important; /* Beige dark mode */
+  color: var(--text-light) !important;
+  /* Beige dark mode */
 }
 
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--accent-gold) !important; /* Gold hover dark mode */
+  color: var(--accent-gold) !important;
+  /* Gold hover dark mode */
 }
 
 /* =========================
    HEADINGS & FLOATING TEXT
 ========================= */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--text-dark) !important;
 }
 
@@ -860,16 +887,42 @@ h1, h2, h3, h4, h5, h6 {
   animation: BottomTotop 6s linear infinite 0s;
 }
 
-.animated-item:nth-child(2n+2) { animation-delay: 2s; }
-.animated-item:nth-child(3n+3) { animation-delay: 4s; }
+.animated-item:nth-child(2n+2) {
+  animation-delay: 2s;
+}
+
+.animated-item:nth-child(3n+3) {
+  animation-delay: 4s;
+}
 
 @keyframes BottomTotop {
-  0% { opacity: 0; }
-  5% { opacity: 0; transform: translateY(5px); }
-  10% { opacity: 1; transform: translateY(0); }
-  25% { opacity: 1; transform: translateY(0); }
-  30% { opacity: 0; transform: translateY(5px); }
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  25% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  30% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 /* =========================
@@ -911,7 +964,8 @@ h1, h2, h3, h4, h5, h6 {
    FLOATING TEXT COLOR FIX
 ========================= */
 .animated-item {
-  color: var(--accent-gold) !important; /* Gold in both light & dark mode */
+  color: var(--accent-gold) !important;
+  /* Gold in both light & dark mode */
   font-size: 37px;
   line-height: inherit;
   display: block;
@@ -933,8 +987,10 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
   font-weight: bold;
   transition: all 0.3s ease;
-  outline: none;          /* remove default focus outline */
-  box-shadow: none;       /* remove any browser shadow */
+  outline: none;
+  /* remove default focus outline */
+  box-shadow: none;
+  /* remove any browser shadow */
 }
 
 .custom-btn:focus {
@@ -943,13 +999,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custom-btn:hover {
-  background: var(--accent-gold) !important; /* Gold fill */
-  color: var(--text-light) !important;       /* Beige text in light mode */
-  border-color: var(--accent-gold) !important; /* Gold border on hover */
+  background: var(--accent-gold) !important;
+  /* Gold fill */
+  color: var(--text-light) !important;
+  /* Beige text in light mode */
+  border-color: var(--accent-gold) !important;
+  /* Gold border on hover */
 }
 
 .dark-mode .custom-btn:hover {
-  color: var(--bg-dark) !important;          /* Dark Green text in dark mode */
+  color: var(--bg-dark) !important;
+  /* Dark Green text in dark mode */
   border-color: var(--accent-gold) !important;
 }
 
@@ -964,7 +1024,8 @@ h1, h2, h3, h4, h5, h6 {
 .about-des h1 {
   font-size: 3rem;
   margin-bottom: 40px;
-  color: var(--text-dark); /* Royal Green */
+  color: var(--text-dark);
+  /* Royal Green */
   text-align: left;
 }
 
@@ -980,17 +1041,22 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  background-color: var(--accent-gold); /* Gold background */
-  padding: 6px; /* spacing around image */
-  border-radius: 10px; /* subtle rounded corners */
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* subtle shadow */
+  background-color: var(--accent-gold);
+  /* Gold background */
+  padding: 6px;
+  /* spacing around image */
+  border-radius: 10px;
+  /* subtle rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  /* subtle shadow */
 }
 
 .about-des .image img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 5px; /* optional, keeps rectangular shape slightly soft */
+  border-radius: 5px;
+  /* optional, keeps rectangular shape slightly soft */
 }
 
 /* Text column */
@@ -998,7 +1064,8 @@ h1, h2, h3, h4, h5, h6 {
   flex: 2;
   font-size: 18px;
   line-height: 1.8;
-  text-align: justify; /* paragraph justified */
+  text-align: justify;
+  /* paragraph justified */
   color: var(--text-dark);
 }
 
@@ -1010,18 +1077,21 @@ h1, h2, h3, h4, h5, h6 {
 /* Dark mode adjustments */
 .dark-mode .about-des h1,
 .dark-mode .about-des .text {
-  color: var(--text-light); /* Beige in dark mode */
+  color: var(--text-light);
+  /* Beige in dark mode */
 }
 
 .dark-mode .about-des .image {
-  background-color: var(--accent-gold); /* keep gold bg even in dark mode */
+  background-color: var(--accent-gold);
+  /* keep gold bg even in dark mode */
 }
 
 /* =========================
    EDUCATION HEADING SPACING
 ========================= */
 .education .section-title {
-  margin-bottom: 70px; /* increase/decrease as you like */
+  margin-bottom: 70px;
+  /* increase/decrease as you like */
 }
 
 /* =========================
@@ -1210,7 +1280,7 @@ Horizontal Time Line
   filter: blur(3px);
   transform: scale(0.95);
 
-  transition: 
+  transition:
     opacity 0.4s ease,
     filter 0.4s ease,
     transform 0.4s ease;
@@ -1237,14 +1307,17 @@ Horizontal Time Line
   width: 14px;
   height: 14px;
 
-  background: #FFFFFF; /* inner white */
+  background: #FFFFFF;
+  /* inner white */
   border-radius: 50%;
 
-  box-shadow: 0 0 0 4px #C9A24D; /* outer gold ring */
+  box-shadow: 0 0 0 4px #C9A24D;
+  /* outer gold ring */
 }
 
 .dark-mode .timeline::before {
-  background: var(--text-light); /* beige */
+  background: var(--text-light);
+  /* beige */
 }
 
 /* Date */
@@ -1291,7 +1364,8 @@ Horizontal Time Line
   position: absolute;
   left: 0;
   top: 0;
-  color: #C9A24D; /* gold accent */
+  color: #C9A24D;
+  /* gold accent */
   font-size: 1.2rem;
   line-height: 1.4;
 }
@@ -1301,12 +1375,15 @@ Horizontal Time Line
 ========================= */
 @media (max-width: 768px) {
   .timeline::before {
-    left: 12px; /* vertical line position */
+    left: 12px;
+    /* vertical line position */
   }
 
   .timeline-item {
-    padding-left: 3rem; /* card padding */
-    filter: blur(1px);  /* subtle blur on mobile */
+    padding-left: 3rem;
+    /* card padding */
+    filter: blur(1px);
+    /* subtle blur on mobile */
   }
 
   .timeline-item.active {
@@ -1315,7 +1392,8 @@ Horizontal Time Line
 
   /* Dot position tweak for tablet/mobile */
   .timeline-item::before {
-    left: 7px; /* moved closer to line */
+    left: 7px;
+    /* moved closer to line */
   }
 }
 
@@ -1362,7 +1440,7 @@ Horizontal Time Line
 
 .skill-tags span:hover {
   transform: translateY(-2px);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* MOBILE */
@@ -1379,7 +1457,8 @@ Horizontal Time Line
   /* padding: 0 2rem; */
   margin: 6rem auto;
   max-width: 1100px;
-  background: var(--bg-light); /* light background */
+  background: var(--bg-light);
+  /* light background */
   color: var(--text-dark);
   transition: background 0.3s ease, color 0.3s ease;
 }
@@ -1389,7 +1468,7 @@ Horizontal Time Line
   font-size: 3rem;
   margin-bottom: 2rem;
   color: var(--text-dark);
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
 }
 
 /* Tabs */
@@ -1439,7 +1518,8 @@ Horizontal Time Line
   flex-wrap: wrap;
   gap: 1.5rem;
 
-  justify-content: center; /* THIS centers last single card */
+  justify-content: center;
+  /* THIS centers last single card */
 }
 
 /* Individual project card */
@@ -1448,15 +1528,17 @@ Horizontal Time Line
   padding: 1.5rem;
   border-radius: 12px;
   border: 1px solid var(--accent-gold);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease;
   color: var(--text-dark);
-  align-items: center; /* <-- horizontal center */
-  text-align: center;  /* <-- text inside centered */
+  align-items: center;
+  /* <-- horizontal center */
+  text-align: center;
+  /* <-- text inside centered */
 }
 
 .project-card {
-  width: 320px;  
+  width: 320px;
   max-width: 100%;
   display: flex;
   flex-direction: column;
@@ -1467,7 +1549,8 @@ Horizontal Time Line
 .project-title,
 .project-desc,
 .tech-stack {
-  text-align: center; /* ensures all text is center-aligned */
+  text-align: center;
+  /* ensures all text is center-aligned */
 }
 
 /* Tech stack centered too */
@@ -1475,12 +1558,13 @@ Horizontal Time Line
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  justify-content: center; /* center the tech tags */
+  justify-content: center;
+  /* center the tech tags */
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Project title and description */
@@ -1583,7 +1667,7 @@ body.dark-mode .project-card:hover {
   padding: 1rem 1.2rem;
   margin-bottom: 1.5rem;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.6s ease-out;
@@ -1615,7 +1699,7 @@ body.dark-mode .project-card:hover {
 }
 
 body.dark-mode .publication-card {
-  background: #F6F1E7;  
+  background: #F6F1E7;
   border-left-color: var(--accent-gold);
 }
 
@@ -1759,7 +1843,8 @@ body.dark-mode .achievement-card:hover .achievement-tag {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem; /* spacing between icons */
+  gap: 2rem;
+  /* spacing between icons */
 }
 
 .find-me .col {
@@ -1776,7 +1861,8 @@ body.dark-mode .achievement-card:hover .achievement-tag {
 }
 
 .find-me .col i:hover {
-  color: var(--accent-gold); /* hover color */
+  color: var(--accent-gold);
+  /* hover color */
   transform: translateY(-4px);
 }
 
@@ -1788,7 +1874,8 @@ body.dark-mode .achievement-card:hover .achievement-tag {
 
 /* Dark Mode */
 body.dark-mode .find-me {
-  background: #0F2F25; /* dark background */
+  background: #0F2F25;
+  /* dark background */
   color: var(--text-light);
 }
 
@@ -1812,11 +1899,20 @@ body.dark-mode .find-me .col i:hover {
   }
 }
 
-
 /* Tabs & related content spacing for desktop/tablet */
 @media (max-width: 768px) {
+  .about {
+    margin-bottom: 3.5rem !important;
+  }
+
   section {
-    margin: 2rem auto !important; /* smaller vertical spacing on mobile */
-    padding: 0 1rem;   /* reduce side padding */
+    margin: 2rem auto !important;
+    /* smaller vertical spacing on mobile */
+    padding: 0 1rem;
+    /* reduce side padding */
+  }
+
+  section h2 {
+    text-align: center;
   }
 }
