@@ -1,24 +1,43 @@
-### Hi there 👋
+## Hi there 👋 I’m Khushi Bhoj
 
-🌱 I’m currently learning Competitive Programming and my Data Science Skills. <br />
-👯 I’m looking to collaborate on Data Science and Machine Learning Projects. <br />
-😄 Pronouns: she/her <br />
-📫 How to reach me: 
-- LinkedIn: https://www.linkedin.com/in/khushibhoj/
-- Twitter: https://twitter.com/KhushiBhojj
-- Medium: https://medium.com/@khushibhoj 
+I’m a Data Science graduate with a strong interest in analytics, machine learning, and problem-solving. I enjoy working on data-driven projects that turn complex information into meaningful insights, and I’m constantly learning to deepen both my technical and analytical skills.
 
-<!--
-**KhushiBhoj/KhushiBhoj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 🌱 Currently Learning
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* Competitive Programming
+* Advanced Data Science and Machine Learning concepts
+
+---
+
+### 👯 Looking to Collaborate On
+
+* Data Science projects
+* Machine Learning applications
+* Analytics and visualization-driven projects
+
+---
+
+### 💡 Interests
+
+* Data analysis and storytelling
+* Machine learning and predictive modeling
+* Applying analytics to real-world domains like healthcare, media, and sports
+
+---
+
+### 😄 Pronouns
+
+* she/her
+
+---
+
+### 📫 How to Reach Me
+
+* **LinkedIn:** [https://www.linkedin.com/in/khushibhoj/](https://www.linkedin.com/in/khushibhoj/)
+* **Medium:** [https://medium.com/@khushibhoj](https://medium.com/@khushibhoj)
+
+---
+
+✨ Always curious, always learning, and always excited to build meaningful things with data.
